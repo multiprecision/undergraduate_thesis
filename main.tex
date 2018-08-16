@@ -465,7 +465,7 @@
     
     Tesis ini menginvestigasi potensi dari Vulkan untuk animasi fluida dengan metode SPH. Sebuah algoritma SPH paralel yang sederhana dibuat dan diimplementasikan dalam GLSL (OpenGL Shading Language) compute shader. Kode GLSL ini diubah menjadi format SPIR-V (Standard Portable Intermediate Representation V) lalu diimplementasikan dengan Vulkan dan OpenGL 4.6. Implementasi ini di verifikasi dengan dengan 2 tes kasus: menjatuhkan sebuah balok air ke dalam kotak dan bendungan pecah dalam saluran tertutup di temperatur ruang.
     
-    Bila jumlah partikelnya 30 000 atau lebih, implementasi Vulkan kami berjalan lebih cepat dibandingkan dengan implementasi OpenGL 4.6 kami (\(n = 60 000, \mathrm{Vulkan} = \SI{28.4}{fps}, \mathrm{OpenGL\ 4.6} = \SI{15.25}{fps}\)). Namun implementasi Vulkan kami berjalan lebih lambat dibandingkan dengan implementasi OpenGL bila jumlah partikelnya 20 000 atau kurang (\(n = 20000, \mathrm{Vulkan} = \SI{115.95}{fps}, \mathrm{OpenGL\ 4.6} = \SI{120.8}{fps}\); \(n = 10000, \mathrm{Vulkan} = \SI{271.8}{fps}, \mathrm{OpenGL\ 4.6} = \SI{302.65}{fps}\)).
+    Bila jumlah partikelnya 30 000 atau lebih, implementasi Vulkan kami berjalan lebih cepat dibandingkan dengan implementasi OpenGL 4.6 kami (\(n = 60 000\), \(\mathrm{Vulkan} = \SI{28.4}{fps}\), \(\mathrm{OpenGL\ 4.6} = \SI{15.25}{fps}\)). Namun implementasi Vulkan kami berjalan lebih lambat dibandingkan dengan implementasi OpenGL bila jumlah partikelnya 20 000 atau kurang (\(n = 20000\), \(\mathrm{Vulkan} = \SI{115.95}{fps}\), \(\mathrm{OpenGL\ 4.6} = \SI{120.8}{fps}\); \(n = 10000\), \(\mathrm{Vulkan} = \SI{271.8}{fps}\), \(\mathrm{OpenGL\ 4.6} = \SI{302.65}{fps}\)).
     \vspace{1\baselineskip}
     \newline
     Referensi: 23 (1977-2017)
@@ -485,7 +485,7 @@
 
     This thesis investigates the potential of Vulkan for fluid animation using SPH method. A simple parallel SPH algorithm is devised and implemented in GLSL (OpenGL Shading Language) compute shader. This GLSL code is converted into SPIR-V (Standard Portable Intermediate Representation V) format and then implemented with Vulkan and OpenGL 4.6. These implementations are then verified using 2 test cases: dropping a cube of water into a box and a dam break in a closed channel at room temperature.
     
-    If the number of particles is 30 000 or greater, our Vulkan implementation is faster compared to our OpenGL implementation (\(n = 60 000, \mathrm{Vulkan} = \SI{28.4}{fps}, \mathrm{OpenGL\ 4.6} = \SI{15.25}{fps}\)). However, our Vulkan implementation is slower compared to our OpenGL 4.6 implementation if the number of particles is 20 000 or fewer (\(n = 20000, \mathrm{Vulkan} = \SI{115.95}{fps}, \mathrm{OpenGL\ 4.6} = \SI{120.8}{fps}\); \(n = 10000, \mathrm{Vulkan} = \SI{271.8}{fps}, \mathrm{OpenGL\ 4.6} = \SI{302.65}{fps}\)).
+    If the number of particles is 30 000 or greater, our Vulkan implementation is faster compared to our OpenGL implementation (\(n = 60 000\), \(\mathrm{Vulkan} = \SI{28.4}{fps}\), \(\mathrm{OpenGL\ 4.6} = \SI{15.25}{fps}\)). However, our Vulkan implementation is slower compared to our OpenGL 4.6 implementation if the number of particles is 20 000 or fewer (\(n = 20000\), \(\mathrm{Vulkan} = \SI{115.95}{fps}\), \(\mathrm{OpenGL\ 4.6} = \SI{120.8}{fps}\); \(n = 10000\), \(\mathrm{Vulkan} = \SI{271.8}{fps}\), \(\mathrm{OpenGL\ 4.6} = \SI{302.65}{fps}\)).
     \vspace{1\baselineskip}
     \newline
     References: 23 (1977-2017)
