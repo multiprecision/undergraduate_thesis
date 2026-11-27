@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use or reference this work, please cite it as below."
+type: software
+title: "Real-Time GPU-Based SPH Fluid Simulation Using Vulkan and OpenGL Compute Shaders"
+authors:
+  - family-names: Gunadi
+    given-names: Samuel Ivan
+    affiliation: Universitas Pelita Harapan
+license: CC-BY-NC-SA-4.0
+repository-code: "https://github.com/multiprecision/undergraduate_thesis"
+date-released: 2018-01-30
+keywords:
+  - smoothed particle hydrodynamics
+  - SPH
+  - fluid simulation
+  - GPU computing
+  - compute shaders
+  - Vulkan
+  - OpenGL
+  - SPIR-V
+  - GLSL
+preferred-citation:
+  type: thesis
+  thesis-type: "Undergraduate thesis (Bachelor of Informatics)"
+  title: "Real-Time GPU-Based SPH Fluid Simulation Using Vulkan and OpenGL Compute Shaders"
+  authors:
+    - family-names: Gunadi
+      given-names: Samuel Ivan
+  institution:
+    name: Universitas Pelita Harapan
+    city: Tangerang
+    country: ID
+  department: "Department of Informatics, Faculty of Computer Science"
+  year: 2018
+  month: 1
+  url: "https://github.com/multiprecision/undergraduate_thesis/raw/master/undergraduate_thesis.pdf"
+references:
+  - type: conference-paper
+    title: "Real-Time GPU-Based SPH Fluid Simulation Using Vulkan and OpenGL Compute Shaders"
+    authors:
+      - family-names: Gunadi
+        given-names: Samuel Ivan
+    collection-title: "2018 4th International Conference on Science and Technology (ICST)"
+    publisher:
+      name: IEEE
+    year: 2018
+    url: "https://ieeexplore.ieee.org/document/8528699"

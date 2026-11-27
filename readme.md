@@ -4,6 +4,7 @@
 [![IEEE Paper](https://img.shields.io/badge/IEEE%20ICST%202018-Published%20Paper-00629B?style=flat-square&logo=ieee&logoColor=white)](https://ieeexplore.ieee.org/document/8528699)
 [![Vulkan Implementation](https://img.shields.io/badge/Code-Vulkan-AC162C?style=flat-square&logo=vulkan&logoColor=white)](https://github.com/multiprecision/sph_vulkan)
 [![OpenGL Implementation](https://img.shields.io/badge/Code-OpenGL%204.6-5586A4?style=flat-square&logo=opengl&logoColor=white)](https://github.com/multiprecision/sph_opengl)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey?style=flat-square)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 Undergraduate thesis for the Bachelor of Informatics at Universitas Pelita Harapan (January 2018), investigating the performance and architectural trade-offs of Vulkan versus OpenGL 4.6 compute shaders for real-time Smoothed Particle Hydrodynamics (SPH) fluid simulation. A condensed version of this research was published at the 2018 4th International Conference on Science and Technology (ICST) by IEEE.
 
@@ -53,7 +54,24 @@ Download the full thesis directly from [`undergraduate_thesis.pdf`](https://gith
 
 ## Citation
 
-If you reference this thesis or the accompanying IEEE ICST 2018 conference paper, please cite:
+If you use or reference this work, please cite it. GitHub's **Cite this repository** button (generated from [`CITATION.cff`](CITATION.cff)) provides APA and BibTeX formats.
+
+Thesis:
+
+```bibtex
+@thesis{gunadi2018thesis,
+  author      = {Samuel Ivan Gunadi},
+  title       = {Real-Time GPU-Based SPH Fluid Simulation Using Vulkan and OpenGL Compute Shaders},
+  type        = {Undergraduate thesis},
+  institution = {Universitas Pelita Harapan},
+  location    = {Tangerang, Indonesia},
+  year        = {2018},
+  month       = jan,
+  url         = {https://github.com/multiprecision/undergraduate_thesis}
+}
+```
+
+IEEE ICST 2018 conference paper:
 
 ```bibtex
 @inproceedings{gunadi2018sph,
@@ -63,5 +81,16 @@ If you reference this thesis or the accompanying IEEE ICST 2018 conference paper
   year      = {2018},
   month     = nov,
   publisher = {IEEE},
-  url       = {[https://ieeexplore.ieee.org/document/8528699](https://ieeexplore.ieee.org/document/8528699)}
+  url       = {https://ieeexplore.ieee.org/document/8528699}
 }
+```
+
+---
+
+## License
+
+This work is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/) (CC BY-NC-SA 4.0). See [`license.txt`](license.txt) for the full legal text.
+
+You are free to share and adapt this material for non-commercial purposes, provided you give appropriate credit and distribute any derivative works under the same license.
+
+The Universitas Pelita Harapan logo (`images/uph_logo.png`) is the property of the university and is not covered by this license.
